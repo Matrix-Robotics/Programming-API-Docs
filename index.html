@@ -1,36 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MATRIX Robotics Programming API Documentation</title>
-  <link rel="icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAACXURoYl1EZH5hTGw6VThUAl1IaAJhTHAyXURkfl1IaH5pXIQeZVR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAl1EasJdRGd+YUxtollAYAJlUHheXUhqll1EZ35hSGpOaVyEPmlUfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJdRGtCXURn/mFMbeJpWIBCXUhqpl1EZ/5dSGrqZVB0hmFMbAJdQGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACXURrOl1EZ/5hTG4uXUhqel1EZ/5dSGriZVB0emFIbAJVNEwCiZDIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAl1Ea0JdRGfyXUhrnl1EZ/5dSGr+ZVB4emFIbAJVNEwCiYzIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJhTG4+YUxyhmFMboJdSGteXUhq5mVUfEJlUHQCZVR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACYUxyFmFMbgZhTG4mYUxuWl1Ia3JhSG4qbWSMEmlYfAAAAAAAAAAAAomQzAJhTGwCZVR8AmlUfAJ9fLACdXCcAmFMbrJpWHxKZVB0nl1IazZhTHISYUxxwmlchE5pWIAAAAAAAAAAAAJZQGACYUhsAmlYgDppWHw2BLAAAnFolAphTG4OYUhuNmFIaoZdRGf6XUhq/mVUfFZdSGgCWUBgAoWIvAJdRGQCZVB0AmFMcHZhSG6uZVB1kmFMbdphTHEaaViAOmFIbkZdRGf+XURn/l1EZ/5hSGpKbWSQFmVUfAJpWIACXURkAm1giCZhUHFyXURr2l1Ia45hSG46YUxwVmVQdAJpWIAqYUhqOl1EZ/JdRGf+XURn2mFIbYZZPFgCbWCMFmFMbS5hSG5aZVR5xmFMcg5hSG22cWiUenVsmI5hTHACZVB0AmlYgCphSGo6XURn9l1EZ/5hSGrmZVB1Gl1IaoZdRGfaXURntmVQdZJxaJQeWUBgAnVomPZtZI2bJpIcAmFMcAJlUHQCaViAKl1Iaj5hSGseYVB2Gl1IayJdRGf+XURrgmFIbXZlVHwaZVR4Am1kjAJxZJAqcWSQSAAAAAMehgwCYUxwAmFMcAJlUHgqZVB1SmVQdX5hTG3GXUhq8mFMcNJVNFACaVR8AmVQdAJtYIwCcWSQAnFkkAAAAAAAAAAAAuoxoAJhTGwCZVB0AmVUeC5lUHVmZVB1emVQdF5dSGgCfXisAm1gjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmFQcAJlUHQCnbD0Bt4hiAJhTHACWTxcAoGEuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8AAAA/AAAAPwAAAD8AAAB/AAAA/wAAAMAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAADADwAA8B8AAA==" type="image/x-icon">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon"
+    href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAACXURoYl1EZH5hTGw6VThUAl1IaAJhTHAyXURkfl1IaH5pXIQeZVR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAl1EasJdRGd+YUxtollAYAJlUHheXUhqll1EZ35hSGpOaVyEPmlUfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJdRGtCXURn/mFMbeJpWIBCXUhqpl1EZ/5dSGrqZVB0hmFMbAJdQGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACXURrOl1EZ/5hTG4uXUhqel1EZ/5dSGriZVB0emFIbAJVNEwCiZDIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAl1Ea0JdRGfyXUhrnl1EZ/5dSGr+ZVB4emFIbAJVNEwCiYzIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJhTG4+YUxyhmFMboJdSGteXUhq5mVUfEJlUHQCZVR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACYUxyFmFMbgZhTG4mYUxuWl1Ia3JhSG4qbWSMEmlYfAAAAAAAAAAAAomQzAJhTGwCZVR8AmlUfAJ9fLACdXCcAmFMbrJpWHxKZVB0nl1IazZhTHISYUxxwmlchE5pWIAAAAAAAAAAAAJZQGACYUhsAmlYgDppWHw2BLAAAnFolAphTG4OYUhuNmFIaoZdRGf6XUhq/mVUfFZdSGgCWUBgAoWIvAJdRGQCZVB0AmFMcHZhSG6uZVB1kmFMbdphTHEaaViAOmFIbkZdRGf+XURn/l1EZ/5hSGpKbWSQFmVUfAJpWIACXURkAm1giCZhUHFyXURr2l1Ia45hSG46YUxwVmVQdAJpWIAqYUhqOl1EZ/JdRGf+XURn2mFIbYZZPFgCbWCMFmFMbS5hSG5aZVR5xmFMcg5hSG22cWiUenVsmI5hTHACZVB0AmlYgCphSGo6XURn9l1EZ/5hSGrmZVB1Gl1IaoZdRGfaXURntmVQdZJxaJQeWUBgAnVomPZtZI2bJpIcAmFMcAJlUHQCaViAKl1Iaj5hSGseYVB2Gl1IayJdRGf+XURrgmFIbXZlVHwaZVR4Am1kjAJxZJAqcWSQSAAAAAMehgwCYUxwAmFMcAJlUHgqZVB1SmVQdX5hTG3GXUhq8mFMcNJVNFACaVR8AmVQdAJtYIwCcWSQAnFkkAAAAAAAAAAAAuoxoAJhTGwCZVB0AmVUeC5lUHVmZVB1emVQdF5dSGgCfXisAm1gjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmFQcAJlUHQCnbD0Bt4hiAJhTHACWTxcAoGEuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8AAAA/AAAAPwAAAD8AAAB/AAAA/wAAAMAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAADADwAA8B8AAA=="
+    type="image/x-icon">
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">MATRIX Robotics Programming API Documentation - Home</a>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">MATRIX Robotics Programming API Documentation - Home</a>
+    </div>
   </nav>
 
   <div class="container my-5">
-    <h1 class="text-center">Welcome to the MATRIX Robotics Programming API Documentation</h1>
+    <h2 class="text-center p-1">Welcome to the MATRIX Robotics Programming API Documentation</h1>
     <p class="text-center">Explore the various sections to learn more about how to programming and its capabilities.</p>
+    <p class="text-center">Finding Datasheet or Product Info? Please visit <a href="https://github.com/Matrix-Robotics/Products-documents">Products-documents repo</a>.</p>
     <p class="text-center">*Please note that as of 2024/11/11, this page is still a work in progress.</p>
-    
-    <div class="list-group">
-      <a href="./MiniR4_Arduino_Lib_API_Docs/" class="list-group-item list-group-item-action">MATRIX Mini R4 - Arduino C++ APIs</a>
-      <a href="./#" class="list-group-item list-group-item-action">MATRIX Mini R4 - MATRIXblock APIs</a>
-      <a href="./#" class="list-group-item list-group-item-action">MATRIX Mini 2.0 - Arduino C++ APIs</a>
-	  <a href="./#" class="list-group-item list-group-item-action">MATRIX Mini 2.0 - MATRIXblock APIs</a>
-	  <a href="./#" class="list-group-item list-group-item-action">MATRIX Micro - MicroPython APIs</a>
-	  <a href="./#" class="list-group-item list-group-item-action">MATRIX Micro - Makecode APIs</a>
+
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="miniR4Tab" data-bs-toggle="tab" href="#miniR4" role="tab" aria-controls="miniR4"
+          aria-selected="true">MATRIX Mini R4</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="mini2Tab" data-bs-toggle="tab" href="#mini2" role="tab" aria-controls="mini2"
+          aria-selected="false">MATRIX Mini 2.0</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="microTab" data-bs-toggle="tab" href="#micro" role="tab" aria-controls="micro"
+          aria-selected="false">MATRIX Micro</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="miniR4" role="tabpanel" aria-labelledby="miniR4Tab">
+        <div class="list-group p-3">
+          <a href="./MiniR4_Arduino_Lib_API_Docs/" class="list-group-item list-group-item-action">MATRIX Mini R4 - Arduino C++ APIs</a>
+          <a href="./#" class="list-group-item list-group-item-action">MATRIX Mini R4 - MATRIXblock APIs</a>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="mini2" role="tabpanel" aria-labelledby="mini2Tab">
+        <div class="list-group p-3">
+          <a href="./#" class="list-group-item list-group-item-action">MATRIX Mini 2.0 - Arduino C++ APIs</a>
+          <a href="./#" class="list-group-item list-group-item-action">MATRIX Mini 2.0 - MATRIXblock APIs</a>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="micro" role="tabpanel" aria-labelledby="microTab">
+        <div class="list-group p-3">
+          <a href="./#" class="list-group-item list-group-item-action">MATRIX Micro - MicroPython APIs</a>
+          <a href="./#" class="list-group-item list-group-item-action">MATRIX Micro - Makecode APIs</a>
+        </div>
+      </div>
     </div>
-	<hr>
-	<p class="text-center">Finding Datasheet or Product Info? Please visit <a href="https://github.com/Matrix-Robotics/Products-documents">Products-documents repo</a>.</p>
   </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.slim.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap 5 JS and dependencies -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
