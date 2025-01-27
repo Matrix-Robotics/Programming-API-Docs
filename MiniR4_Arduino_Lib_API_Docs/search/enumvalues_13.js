@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['y_0',['Y',['../class_mini_r4_motion.html#a7e11040cf19122cc682c8a44778be71fa57cec4137b614c87cb4e24a3d003a3e0',1,'MiniR4Motion::Y'],['../_mini_r4_color_sensor_ext_8h.html#a8decdeec7078a8e64dbb7b8dddd6a31ba5596231eabd6cf29050967d5ac83ad84',1,'Y:&#160;MiniR4ColorSensorExt.h']]],
-  ['y_1',['y',['../_mini_r4_motion_ext_8h.html#a864ec409e4f87f8c4b745b3fe68c4db6ae1f9fdb8b786c63efc4ce44eeacd17f2',1,'MiniR4MotionExt.h']]],
-  ['yaw_2',['Yaw',['../class_mini_r4_motion.html#a7e11040cf19122cc682c8a44778be71fac5d6d1002e8ca364762309fe642a2327',1,'MiniR4Motion']]]
+  ['vcselperiodfinalrange_0',['VcselPeriodFinalRange',['../class_matrix_laser_v2.html#a1f50da80fa786109c40afbace37330aea0f1cd5bddff51de6daaa776f8013b398',1,'MatrixLaserV2']]],
+  ['vcselperiodprerange_1',['VcselPeriodPreRange',['../class_matrix_laser_v2.html#a1f50da80fa786109c40afbace37330aea2401d072cc40ad5d808820937210d18a',1,'MatrixLaserV2']]],
+  ['vhv_5fconfig_5fpad_5fscl_5fsda_5f_5fextsup_5fhv_2',['VHV_CONFIG_PAD_SCL_SDA__EXTSUP_HV',['../class_matrix_laser_v2.html#a056a85ce8042f64098cefc7fdc53bd93acda82c16a0c3c636c9136672391ce085',1,'MatrixLaserV2']]]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MatrixMiniR4: src/Util/BaseUtil.h Source File</title>
+<title>MatrixMiniR4: D:/MTXBlock_DevHome/MatrixMiniR4_DOX/src/Util/BaseUtil.h Source File</title>
 <link rel="icon" href="favicon.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo_for_dox.png"/></td>
   <td id="projectalign">
-   <div id="projectname">MatrixMiniR4<span id="projectnumber">&#160;1.1.4</span>
+   <div id="projectname">MatrixMiniR4<span id="projectnumber">&#160;1.1.5</span>
    </div>
    <div id="projectbrief">Matrix Mini R4 Arduino Library API Documentation</div>
   </td>
@@ -113,9 +113,9 @@ $(function(){initNavTree('_base_util_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">public</span>:</div>
 <div class="foldopen" id="foldopen00018" data-start="{" data-end="}">
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="class_base_util.html#accae64857f15901b5d4efaa5661750ad">   18</a></span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt; <span class="keyword">static</span> T <a class="code hl_function" href="class_base_util.html#accae64857f15901b5d4efaa5661750ad">map</a>(T <a class="code hl_enumvalue" href="_mini_r4_motion_ext_8h.html#a864ec409e4f87f8c4b745b3fe68c4db6acab1e15e82c5976bfb476ddfe145263c">x</a>, T in_min, T in_max, T out_min, T out_max)</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="class_base_util.html#accae64857f15901b5d4efaa5661750ad">   18</a></span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt; <span class="keyword">static</span> T <a class="code hl_function" href="class_base_util.html#accae64857f15901b5d4efaa5661750ad">map</a>(T x, T in_min, T in_max, T out_min, T out_max)</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    {</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        <span class="keywordflow">return</span> (<a class="code hl_enumvalue" href="_mini_r4_motion_ext_8h.html#a864ec409e4f87f8c4b745b3fe68c4db6acab1e15e82c5976bfb476ddfe145263c">x</a> - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        <span class="keywordflow">return</span> (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    }</div>
 </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
@@ -136,7 +136,6 @@ $(function(){initNavTree('_base_util_8h_source.html',''); initResizable(true); }
 </div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#endif   </span><span class="comment">// BASEUTIL_H</span></div>
-<div class="ttc" id="a_mini_r4_motion_ext_8h_html_a864ec409e4f87f8c4b745b3fe68c4db6acab1e15e82c5976bfb476ddfe145263c"><div class="ttname"><a href="_mini_r4_motion_ext_8h.html#a864ec409e4f87f8c4b745b3fe68c4db6acab1e15e82c5976bfb476ddfe145263c">x</a></div><div class="ttdeci">@ x</div><div class="ttdef"><b>Definition</b> <a href="_mini_r4_motion_ext_8h_source.html#l00020">MiniR4MotionExt.h:20</a></div></div>
 <div class="ttc" id="aclass_base_util_html"><div class="ttname"><a href="class_base_util.html">BaseUtil</a></div><div class="ttdoc">MiniR4 low level functions.</div><div class="ttdef"><b>Definition</b> <a href="#l00015">BaseUtil.h:16</a></div></div>
 <div class="ttc" id="aclass_base_util_html_a729b769d1d6799ea1d54300a1c938ebb"><div class="ttname"><a href="class_base_util.html#a729b769d1d6799ea1d54300a1c938ebb">BaseUtil::clamp</a></div><div class="ttdeci">static T clamp(T value, T min_value, T max_value)</div><div class="ttdef"><b>Definition</b> <a href="#l00023">BaseUtil.h:23</a></div></div>
 <div class="ttc" id="aclass_base_util_html_accae64857f15901b5d4efaa5661750ad"><div class="ttname"><a href="class_base_util.html#accae64857f15901b5d4efaa5661750ad">BaseUtil::map</a></div><div class="ttdeci">static T map(T x, T in_min, T in_max, T out_min, T out_max)</div><div class="ttdef"><b>Definition</b> <a href="#l00018">BaseUtil.h:18</a></div></div>
@@ -145,7 +144,7 @@ $(function(){initNavTree('_base_util_8h_source.html',''); initResizable(true); }
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_c106579c58d1265e9b33296122b3962b.html">src</a></li><li class="navelem"><a class="el" href="dir_a42a808069454fd00e4bdccacdd788f0.html">Util</a></li><li class="navelem"><a class="el" href="_base_util_8h.html">BaseUtil.h</a></li>
+    <li class="navelem"><a class="el" href="dir_581baec7be9caf7a8994db9650c754d2.html">MatrixMiniR4_DOX</a></li><li class="navelem"><a class="el" href="dir_d1e1ec8b579b49730cbd6b1c2fc939f2.html">src</a></li><li class="navelem"><a class="el" href="dir_39134112526a5cdf9134decd07cbf237.html">Util</a></li><li class="navelem"><a class="el" href="_base_util_8h.html">BaseUtil.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>

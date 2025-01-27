@@ -7,5 +7,6 @@ var searchData=
   ['onbtnchg_4',['onBtnChg',['../class_m_m_lower.html#a93100ec5197e8f27d2a34afb122c5f78',1,'MMLower']]],
   ['online_5',['online',['../class_mini_r4_d_s18_b20.html#a4ba074ecf5c0dd86ffc101ff4e987d39',1,'MiniR4DS18B20']]],
   ['orange_5ffret_6',['ORANGE_FRET',['../_mini_r4_p_s2_x__lib_8h.html#aaf99aaae83076c8c3b4ff6b35991103e',1,'MiniR4PS2X_lib.h']]],
-  ['other_20resource_7',['Other Resource',['../index.html#autotoc_md3',1,'']]]
+  ['osc_5fcalibrate_5fval_7',['OSC_CALIBRATE_VAL',['../class_matrix_laser_v2.html#a056a85ce8042f64098cefc7fdc53bd93a0767550a5a86b8c95dddb17f6b2a0415',1,'MatrixLaserV2']]],
+  ['other_20resource_8',['Other Resource',['../index.html#autotoc_md3',1,'']]]
 ];

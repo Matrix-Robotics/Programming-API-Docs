@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MatrixMiniR4: src/Modules/MiniR4_DHT11.h Source File</title>
+<title>MatrixMiniR4: D:/MTXBlock_DevHome/MatrixMiniR4_DOX/src/Modules/Sensors/MiniR4_DHT11.h Source File</title>
 <link rel="icon" href="favicon.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo_for_dox.png"/></td>
   <td id="projectalign">
-   <div id="projectname">MatrixMiniR4<span id="projectnumber">&#160;1.1.4</span>
+   <div id="projectname">MatrixMiniR4<span id="projectnumber">&#160;1.1.5</span>
    </div>
    <div id="projectbrief">Matrix Mini R4 Arduino Library API Documentation</div>
   </td>
@@ -116,7 +116,7 @@ $(function(){initNavTree('_mini_r4___d_h_t11_8h_source.html',''); initResizable(
 <div class="foldopen" id="foldopen00034" data-start="{" data-end="}">
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="class_mini_r4_d_h_t11.html#a20ee6c2a539b7c05d4bd1593fa1edb96">   34</a></span>    <a class="code hl_function" href="class_mini_r4_d_h_t11.html#a20ee6c2a539b7c05d4bd1593fa1edb96">MiniR4DHT11</a>()</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    {</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        _pin = PIN2; <span class="comment">// 目前都在DI_R位置，未來可以改成LEFT跟MATRIX現行感應器一樣</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        _pin = PIN2; <span class="comment">//PIN設定在DI_R位置，通過MiniR4Digital_h模板Pin1_2順序來初始化Grove或MATRIX物件</span></div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        pinMode(_pin, OUTPUT);</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        digitalWrite(_pin, HIGH);</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    }</div>
@@ -164,7 +164,7 @@ $(function(){initNavTree('_mini_r4___d_h_t11_8h_source.html',''); initResizable(
 </div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
 <div class="foldopen" id="foldopen00106" data-start="{" data-end="}">
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="class_mini_r4_d_h_t11.html#a956ed96e83d50d71fe3031e1e5d4b5a3">  106</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_mini_r4_d_h_t11.html#a956ed96e83d50d71fe3031e1e5d4b5a3">readTemperatureHumidity</a>(<span class="keywordtype">int</span> &amp;temperature, <span class="keywordtype">int</span> &amp;humidity)</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="class_mini_r4_d_h_t11.html#a9277e0e85d88beeff09abd2ea7f88196">  106</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_mini_r4_d_h_t11.html#a9277e0e85d88beeff09abd2ea7f88196">readTemperatureHumidity</a>(<span class="keywordtype">float</span> &amp;temperature, <span class="keywordtype">int</span> &amp;humidity)</div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    {</div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>        <span class="keywordtype">byte</span> data[5];</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>        <span class="keywordtype">int</span> error = readRawData(data);</div>
@@ -280,14 +280,14 @@ $(function(){initNavTree('_mini_r4___d_h_t11_8h_source.html',''); initResizable(
 <div class="ttc" id="aclass_mini_r4_d_h_t11_html_a2f1fdd3b02e6c44d1484c66689befb05"><div class="ttname"><a href="class_mini_r4_d_h_t11.html#a2f1fdd3b02e6c44d1484c66689befb05">MiniR4DHT11::TIMEOUT_DURATION</a></div><div class="ttdeci">static const int TIMEOUT_DURATION</div><div class="ttdef"><b>Definition</b> <a href="#l00044">MiniR4_DHT11.h:44</a></div></div>
 <div class="ttc" id="aclass_mini_r4_d_h_t11_html_a33b4dca0bab72f6846c762ad69006b9c"><div class="ttname"><a href="class_mini_r4_d_h_t11.html#a33b4dca0bab72f6846c762ad69006b9c">MiniR4DHT11::readTemperature</a></div><div class="ttdeci">float readTemperature()</div><div class="ttdoc">Reads and returns the temperature from the DHT11 sensor.</div><div class="ttdef"><b>Definition</b> <a href="#l00066">MiniR4_DHT11.h:66</a></div></div>
 <div class="ttc" id="aclass_mini_r4_d_h_t11_html_a3f8ae9d6136a89b6ddeb264b38f319c7"><div class="ttname"><a href="class_mini_r4_d_h_t11.html#a3f8ae9d6136a89b6ddeb264b38f319c7">MiniR4DHT11::getErrorString</a></div><div class="ttdeci">String getErrorString(int errorCode)</div><div class="ttdef"><b>Definition</b> <a href="#l00127">MiniR4_DHT11.h:127</a></div></div>
-<div class="ttc" id="aclass_mini_r4_d_h_t11_html_a956ed96e83d50d71fe3031e1e5d4b5a3"><div class="ttname"><a href="class_mini_r4_d_h_t11.html#a956ed96e83d50d71fe3031e1e5d4b5a3">MiniR4DHT11::readTemperatureHumidity</a></div><div class="ttdeci">int readTemperatureHumidity(int &amp;temperature, int &amp;humidity)</div><div class="ttdef"><b>Definition</b> <a href="#l00106">MiniR4_DHT11.h:106</a></div></div>
+<div class="ttc" id="aclass_mini_r4_d_h_t11_html_a9277e0e85d88beeff09abd2ea7f88196"><div class="ttname"><a href="class_mini_r4_d_h_t11.html#a9277e0e85d88beeff09abd2ea7f88196">MiniR4DHT11::readTemperatureHumidity</a></div><div class="ttdeci">int readTemperatureHumidity(float &amp;temperature, int &amp;humidity)</div><div class="ttdef"><b>Definition</b> <a href="#l00106">MiniR4_DHT11.h:106</a></div></div>
 <div class="ttc" id="aclass_mini_r4_d_h_t11_html_ae1a3cffae150fc8d0befe948c7f40766"><div class="ttname"><a href="class_mini_r4_d_h_t11.html#ae1a3cffae150fc8d0befe948c7f40766">MiniR4DHT11::setDelay</a></div><div class="ttdeci">void setDelay(unsigned long delay)</div><div class="ttdoc">Sets the delay between consecutive sensor readings.</div><div class="ttdef"><b>Definition</b> <a href="#l00053">MiniR4_DHT11.h:53</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_c106579c58d1265e9b33296122b3962b.html">src</a></li><li class="navelem"><a class="el" href="dir_4dfabab422ac346ef0a5a106da1c4c85.html">Modules</a></li><li class="navelem"><a class="el" href="_mini_r4___d_h_t11_8h.html">MiniR4_DHT11.h</a></li>
+    <li class="navelem"><a class="el" href="dir_581baec7be9caf7a8994db9650c754d2.html">MatrixMiniR4_DOX</a></li><li class="navelem"><a class="el" href="dir_d1e1ec8b579b49730cbd6b1c2fc939f2.html">src</a></li><li class="navelem"><a class="el" href="dir_0365cf8fefdfa4b63ca1d2da6e930dee.html">Modules</a></li><li class="navelem"><a class="el" href="dir_4d5b2763f133f86e13006f148bc8342e.html">Sensors</a></li><li class="navelem"><a class="el" href="_mini_r4___d_h_t11_8h.html">MiniR4_DHT11.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>

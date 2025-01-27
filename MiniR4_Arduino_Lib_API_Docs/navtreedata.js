@@ -35,7 +35,8 @@ var NAVTREE =
         [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", null ],
         [ "Typedefs", "functions_type.html", null ],
-        [ "Enumerations", "functions_enum.html", null ]
+        [ "Enumerations", "functions_enum.html", null ],
+        [ "Enumerator", "functions_eval.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
@@ -56,11 +57,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_base_util_8h.html",
-"_mini_r4_p_s2_x__lib_8h.html#a1e205eff3863084c42666376ad578fde",
-"class_adafruit___g_f_x.html#a49284b9cea16ecf8c15dfd0b51a841e6",
-"class_m_m_lower.html#a3f98fb539d5e72df0256bac6549782a7a870cc02ab5b8d0737b8b1a344e1c46ba",
-"class_mini_r4_d_s18_b20.html",
-"struct_g_f_xfont.html#ac2c2f0184b810a562be808fbb98822fa"
+"_mini_r4_o_l_e_d_8cpp.html#a4e46ce82a9f9ee814e3bf9a84a48b4d1",
+"class_adafruit___g_f_x.html#a70768127ee8548d2a3690440c1694169",
+"class_m_m_lower.html#a58e7144840761160d2e00bf7ffef2e27",
+"class_matrix_laser_v2.html#aceb9e3b90e6954f48e374537fb1b55b3",
+"functions_func_v.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -9,5 +9,14 @@ var searchData=
   ['get_5fimu_5feuler_6',['GET_IMU_EULER',['../class_m_m_lower.html#a3f98fb539d5e72df0256bac6549782a7a5f3503a1544a5bd67169ed45304a8d8d',1,'MMLower']]],
   ['get_5fimu_5fgyro_7',['GET_IMU_GYRO',['../class_m_m_lower.html#a3f98fb539d5e72df0256bac6549782a7a5cc821d039a33fbb25f6f3701ded8601',1,'MMLower']]],
   ['get_5fpower_5finfo_8',['GET_POWER_INFO',['../class_m_m_lower.html#a3f98fb539d5e72df0256bac6549782a7a05c248daa7509216e3ac02c3d746f618',1,'MMLower']]],
-  ['get_5frotate_5fstate_9',['GET_ROTATE_STATE',['../class_m_m_lower.html#a3f98fb539d5e72df0256bac6549782a7a3b52d8e2253a95ff8a9fe87e62c99873',1,'MMLower']]]
+  ['get_5frotate_5fstate_9',['GET_ROTATE_STATE',['../class_m_m_lower.html#a3f98fb539d5e72df0256bac6549782a7a3b52d8e2253a95ff8a9fe87e62c99873',1,'MMLower']]],
+  ['global_5fconfig_5fref_5fen_5fstart_5fselect_10',['GLOBAL_CONFIG_REF_EN_START_SELECT',['../class_matrix_laser_v2.html#a056a85ce8042f64098cefc7fdc53bd93ae069491926a7d516f14e16b1b1601a8f',1,'MatrixLaserV2']]],
+  ['global_5fconfig_5fspad_5fenables_5fref_5f0_11',['GLOBAL_CONFIG_SPAD_ENABLES_REF_0',['../class_matrix_laser_v2.html#a056a85ce8042f64098cefc7fdc53bd93a8a6f7b4e5ce846d08169354351f0d1b3',1,'MatrixLaserV2']]],
+  ['global_5fconfig_5fspad_5fenables_5fref_5f1_12',['GLOBAL_CONFIG_SPAD_ENABLES_REF_1',['../class_matrix_laser_v2.html#a056a85ce8042f64098cefc7fdc53bd93a7889517620277a1ce349f839f60ddcc5',1,'MatrixLaserV2']]],
+  ['global_5fconfig_5fspad_5fenables_5fref_5f2_13',['GLOBAL_CONFIG_SPAD_ENABLES_REF_2',['../class_matrix_laser_v2.html#a056a85ce8042f64098cefc7fdc53bd93a03c9a4d5802a103fe2d5b824affe726a',1,'MatrixLaserV2']]],
+  ['global_5fconfig_5fspad_5fenables_5fref_5f3_14',['GLOBAL_CONFIG_SPAD_ENABLES_REF_3',['../class_matrix_laser_v2.html#a056a85ce8042f64098cefc7fdc53bd93a7857f209da542935858e680a19a27e07',1,'MatrixLaserV2']]],
+  ['global_5fconfig_5fspad_5fenables_5fref_5f4_15',['GLOBAL_CONFIG_SPAD_ENABLES_REF_4',['../class_matrix_laser_v2.html#a056a85ce8042f64098cefc7fdc53bd93a0295c1023278dc7495cd63a6fc78791c',1,'MatrixLaserV2']]],
+  ['global_5fconfig_5fspad_5fenables_5fref_5f5_16',['GLOBAL_CONFIG_SPAD_ENABLES_REF_5',['../class_matrix_laser_v2.html#a056a85ce8042f64098cefc7fdc53bd93a2a994d34f79b8ac0637c095e54273f45',1,'MatrixLaserV2']]],
+  ['global_5fconfig_5fvcsel_5fwidth_17',['GLOBAL_CONFIG_VCSEL_WIDTH',['../class_matrix_laser_v2.html#a056a85ce8042f64098cefc7fdc53bd93ab834ddeee2f366e9bcfecb7f0c86660c',1,'MatrixLaserV2']]],
+  ['gpio_5fhv_5fmux_5factive_5fhigh_18',['GPIO_HV_MUX_ACTIVE_HIGH',['../class_matrix_laser_v2.html#a056a85ce8042f64098cefc7fdc53bd93aa69838a2915c4192b1ab62a6bc24c7e8',1,'MatrixLaserV2']]]
 ];

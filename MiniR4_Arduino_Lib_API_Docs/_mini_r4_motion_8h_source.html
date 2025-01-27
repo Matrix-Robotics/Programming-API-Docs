@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MatrixMiniR4: src/Modules/MiniR4Motion.h Source File</title>
+<title>MatrixMiniR4: D:/MTXBlock_DevHome/MatrixMiniR4_DOX/src/Modules/MiniR4Motion.h Source File</title>
 <link rel="icon" href="favicon.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo_for_dox.png"/></td>
   <td id="projectalign">
-   <div id="projectname">MatrixMiniR4<span id="projectnumber">&#160;1.1.4</span>
+   <div id="projectname">MatrixMiniR4<span id="projectnumber">&#160;1.1.5</span>
    </div>
    <div id="projectbrief">Matrix Mini R4 Arduino Library API Documentation</div>
   </td>
@@ -129,15 +129,15 @@ $(function(){initNavTree('_mini_r4_motion_8h_source.html',''); initResizable(tru
 <div class="foldopen" id="foldopen00040" data-start="{" data-end="}">
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="class_mini_r4_motion.html#ac92814ef4bb31c9491e8de41dc9207c7">   40</a></span>    <span class="keywordtype">double</span> <a class="code hl_function" href="class_mini_r4_motion.html#ac92814ef4bb31c9491e8de41dc9207c7">getGyro</a>(<a class="code hl_enumeration" href="class_mini_r4_motion.html#a7e11040cf19122cc682c8a44778be71f">AxisType</a> axis)</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    {</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keywordtype">double</span> <a class="code hl_enumvalue" href="_mini_r4_motion_ext_8h.html#a864ec409e4f87f8c4b745b3fe68c4db6acab1e15e82c5976bfb476ddfe145263c">x</a> = 0, <a class="code hl_enumvalue" href="_mini_r4_motion_ext_8h.html#a864ec409e4f87f8c4b745b3fe68c4db6ae1f9fdb8b786c63efc4ce44eeacd17f2">y</a> = 0, <a class="code hl_enumvalue" href="_mini_r4_motion_ext_8h.html#a864ec409e4f87f8c4b745b3fe68c4db6a766ef8aad745d24433e347150a35da61">z</a> = 0;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <a class="code hl_variable" href="_m_m_lower_8cpp.html#a9d4412b3dca085c3a6d1d657b7b4b360">mmL</a>.<a class="code hl_function" href="class_m_m_lower.html#a4eb9b5e71cb26cda413554bf910046c4">GetIMUGyro</a>(<a class="code hl_enumvalue" href="_mini_r4_motion_ext_8h.html#a864ec409e4f87f8c4b745b3fe68c4db6acab1e15e82c5976bfb476ddfe145263c">x</a>, <a class="code hl_enumvalue" href="_mini_r4_motion_ext_8h.html#a864ec409e4f87f8c4b745b3fe68c4db6ae1f9fdb8b786c63efc4ce44eeacd17f2">y</a>, <a class="code hl_enumvalue" href="_mini_r4_motion_ext_8h.html#a864ec409e4f87f8c4b745b3fe68c4db6a766ef8aad745d24433e347150a35da61">z</a>);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keywordtype">double</span> x = 0, y = 0, z = 0;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <a class="code hl_variable" href="_m_m_lower_8cpp.html#a9d4412b3dca085c3a6d1d657b7b4b360">mmL</a>.<a class="code hl_function" href="class_m_m_lower.html#a4eb9b5e71cb26cda413554bf910046c4">GetIMUGyro</a>(x, y, z);</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keywordflow">if</span> (axis == AxisType::X)</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="_mini_r4_motion_ext_8h.html#a864ec409e4f87f8c4b745b3fe68c4db6acab1e15e82c5976bfb476ddfe145263c">x</a>;</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (axis == AxisType::Y)</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="_mini_r4_motion_ext_8h.html#a864ec409e4f87f8c4b745b3fe68c4db6ae1f9fdb8b786c63efc4ce44eeacd17f2">y</a>;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (axis == AxisType::Z)</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="_mini_r4_motion_ext_8h.html#a864ec409e4f87f8c4b745b3fe68c4db6a766ef8aad745d24433e347150a35da61">z</a>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keywordflow">if</span> (axis == <a class="code hl_enumvalue" href="class_mini_r4_motion.html#a7e11040cf19122cc682c8a44778be71fa02129bb861061d1a052c592e2dc6b383">AxisType::X</a>)</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            <span class="keywordflow">return</span> x;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (axis == <a class="code hl_enumvalue" href="class_mini_r4_motion.html#a7e11040cf19122cc682c8a44778be71fa57cec4137b614c87cb4e24a3d003a3e0">AxisType::Y</a>)</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            <span class="keywordflow">return</span> y;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (axis == <a class="code hl_enumvalue" href="class_mini_r4_motion.html#a7e11040cf19122cc682c8a44778be71fa21c2e59531c8710156d34a3c30ac81d5">AxisType::Z</a>)</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            <span class="keywordflow">return</span> z;</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        <span class="keywordflow">else</span></div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>            <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    }</div>
@@ -146,15 +146,15 @@ $(function(){initNavTree('_mini_r4_motion_8h_source.html',''); initResizable(tru
 <div class="foldopen" id="foldopen00061" data-start="{" data-end="}">
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="class_mini_r4_motion.html#aa732701db5f3c76a48d07ddd91127f57">   61</a></span>    <span class="keywordtype">double</span> <a class="code hl_function" href="class_mini_r4_motion.html#aa732701db5f3c76a48d07ddd91127f57">getAccel</a>(<a class="code hl_enumeration" href="class_mini_r4_motion.html#a7e11040cf19122cc682c8a44778be71f">AxisType</a> axis)</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    {</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        <span class="keywordtype">double</span> <a class="code hl_enumvalue" href="_mini_r4_motion_ext_8h.html#a864ec409e4f87f8c4b745b3fe68c4db6acab1e15e82c5976bfb476ddfe145263c">x</a> = 0, <a class="code hl_enumvalue" href="_mini_r4_motion_ext_8h.html#a864ec409e4f87f8c4b745b3fe68c4db6ae1f9fdb8b786c63efc4ce44eeacd17f2">y</a> = 0, <a class="code hl_enumvalue" href="_mini_r4_motion_ext_8h.html#a864ec409e4f87f8c4b745b3fe68c4db6a766ef8aad745d24433e347150a35da61">z</a> = 0;</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        <a class="code hl_variable" href="_m_m_lower_8cpp.html#a9d4412b3dca085c3a6d1d657b7b4b360">mmL</a>.<a class="code hl_function" href="class_m_m_lower.html#a8382c9ca7c196104bc9201e48b6ddf68">GetIMUAcc</a>(<a class="code hl_enumvalue" href="_mini_r4_motion_ext_8h.html#a864ec409e4f87f8c4b745b3fe68c4db6acab1e15e82c5976bfb476ddfe145263c">x</a>, <a class="code hl_enumvalue" href="_mini_r4_motion_ext_8h.html#a864ec409e4f87f8c4b745b3fe68c4db6ae1f9fdb8b786c63efc4ce44eeacd17f2">y</a>, <a class="code hl_enumvalue" href="_mini_r4_motion_ext_8h.html#a864ec409e4f87f8c4b745b3fe68c4db6a766ef8aad745d24433e347150a35da61">z</a>);</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        <span class="keywordtype">double</span> x = 0, y = 0, z = 0;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        <a class="code hl_variable" href="_m_m_lower_8cpp.html#a9d4412b3dca085c3a6d1d657b7b4b360">mmL</a>.<a class="code hl_function" href="class_m_m_lower.html#a8382c9ca7c196104bc9201e48b6ddf68">GetIMUAcc</a>(x, y, z);</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        <span class="keywordflow">if</span> (axis == AxisType::X)</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="_mini_r4_motion_ext_8h.html#a864ec409e4f87f8c4b745b3fe68c4db6acab1e15e82c5976bfb476ddfe145263c">x</a>;</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (axis == AxisType::Y)</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="_mini_r4_motion_ext_8h.html#a864ec409e4f87f8c4b745b3fe68c4db6ae1f9fdb8b786c63efc4ce44eeacd17f2">y</a>;</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (axis == AxisType::Z)</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="_mini_r4_motion_ext_8h.html#a864ec409e4f87f8c4b745b3fe68c4db6a766ef8aad745d24433e347150a35da61">z</a>;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        <span class="keywordflow">if</span> (axis == <a class="code hl_enumvalue" href="class_mini_r4_motion.html#a7e11040cf19122cc682c8a44778be71fa02129bb861061d1a052c592e2dc6b383">AxisType::X</a>)</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>            <span class="keywordflow">return</span> x;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (axis == <a class="code hl_enumvalue" href="class_mini_r4_motion.html#a7e11040cf19122cc682c8a44778be71fa57cec4137b614c87cb4e24a3d003a3e0">AxisType::Y</a>)</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>            <span class="keywordflow">return</span> y;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (axis == <a class="code hl_enumvalue" href="class_mini_r4_motion.html#a7e11040cf19122cc682c8a44778be71fa21c2e59531c8710156d34a3c30ac81d5">AxisType::Z</a>)</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>            <span class="keywordflow">return</span> z;</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        <span class="keywordflow">else</span></div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>            <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    }</div>
@@ -166,11 +166,11 @@ $(function(){initNavTree('_mini_r4_motion_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        int16_t roll = 0, pitch = 0, yaw = 0;</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        <a class="code hl_variable" href="_m_m_lower_8cpp.html#a9d4412b3dca085c3a6d1d657b7b4b360">mmL</a>.<a class="code hl_function" href="class_m_m_lower.html#aa34c5fd7299a4b5bde6c6cb354202ad8">GetIMUEuler</a>(roll, pitch, yaw);</div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        <span class="keywordflow">if</span> (axis == AxisType::Roll)</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        <span class="keywordflow">if</span> (axis == <a class="code hl_enumvalue" href="class_mini_r4_motion.html#a7e11040cf19122cc682c8a44778be71fa25b5eb3bbef15385b5f5ff3abe46f342">AxisType::Roll</a>)</div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>            <span class="keywordflow">return</span> roll;</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (axis == AxisType::Pitch)</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (axis == <a class="code hl_enumvalue" href="class_mini_r4_motion.html#a7e11040cf19122cc682c8a44778be71fa87f800274a7f46c50e17114f89171e2e">AxisType::Pitch</a>)</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>            <span class="keywordflow">return</span> pitch;</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (axis == AxisType::Yaw)</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (axis == <a class="code hl_enumvalue" href="class_mini_r4_motion.html#a7e11040cf19122cc682c8a44778be71fac5d6d1002e8ca364762309fe642a2327">AxisType::Yaw</a>)</div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>            <span class="keywordflow">return</span> yaw;</div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        <span class="keywordflow">else</span></div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>            <span class="keywordflow">return</span> -999;</div>
@@ -186,9 +186,6 @@ $(function(){initNavTree('_mini_r4_motion_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span><span class="preprocessor">#endif   </span><span class="comment">// MINIR4MOTION_H</span></div>
 <div class="ttc" id="a_m_m_lower_8cpp_html_a9d4412b3dca085c3a6d1d657b7b4b360"><div class="ttname"><a href="_m_m_lower_8cpp.html#a9d4412b3dca085c3a6d1d657b7b4b360">mmL</a></div><div class="ttdeci">MMLower mmL(8, 9, 57600)</div></div>
 <div class="ttc" id="a_m_m_lower_8h_html"><div class="ttname"><a href="_m_m_lower_8h.html">MMLower.h</a></div><div class="ttdoc">Handling the Lower MCU (STM32) communication.</div></div>
-<div class="ttc" id="a_mini_r4_motion_ext_8h_html_a864ec409e4f87f8c4b745b3fe68c4db6a766ef8aad745d24433e347150a35da61"><div class="ttname"><a href="_mini_r4_motion_ext_8h.html#a864ec409e4f87f8c4b745b3fe68c4db6a766ef8aad745d24433e347150a35da61">z</a></div><div class="ttdeci">@ z</div><div class="ttdef"><b>Definition</b> <a href="_mini_r4_motion_ext_8h_source.html#l00023">MiniR4MotionExt.h:22</a></div></div>
-<div class="ttc" id="a_mini_r4_motion_ext_8h_html_a864ec409e4f87f8c4b745b3fe68c4db6acab1e15e82c5976bfb476ddfe145263c"><div class="ttname"><a href="_mini_r4_motion_ext_8h.html#a864ec409e4f87f8c4b745b3fe68c4db6acab1e15e82c5976bfb476ddfe145263c">x</a></div><div class="ttdeci">@ x</div><div class="ttdef"><b>Definition</b> <a href="_mini_r4_motion_ext_8h_source.html#l00020">MiniR4MotionExt.h:20</a></div></div>
-<div class="ttc" id="a_mini_r4_motion_ext_8h_html_a864ec409e4f87f8c4b745b3fe68c4db6ae1f9fdb8b786c63efc4ce44eeacd17f2"><div class="ttname"><a href="_mini_r4_motion_ext_8h.html#a864ec409e4f87f8c4b745b3fe68c4db6ae1f9fdb8b786c63efc4ce44eeacd17f2">y</a></div><div class="ttdeci">@ y</div><div class="ttdef"><b>Definition</b> <a href="_mini_r4_motion_ext_8h_source.html#l00021">MiniR4MotionExt.h:21</a></div></div>
 <div class="ttc" id="aclass_m_m_lower_html_a4eb9b5e71cb26cda413554bf910046c4"><div class="ttname"><a href="class_m_m_lower.html#a4eb9b5e71cb26cda413554bf910046c4">MMLower::GetIMUGyro</a></div><div class="ttdeci">RESULT GetIMUGyro(double &amp;x, double &amp;y, double &amp;z)</div><div class="ttdef"><b>Definition</b> <a href="_m_m_lower_8cpp_source.html#l00837">MMLower.cpp:837</a></div></div>
 <div class="ttc" id="aclass_m_m_lower_html_a8382c9ca7c196104bc9201e48b6ddf68"><div class="ttname"><a href="class_m_m_lower.html#a8382c9ca7c196104bc9201e48b6ddf68">MMLower::GetIMUAcc</a></div><div class="ttdeci">RESULT GetIMUAcc(double &amp;x, double &amp;y, double &amp;z)</div><div class="ttdef"><b>Definition</b> <a href="_m_m_lower_8cpp_source.html#l00860">MMLower.cpp:860</a></div></div>
 <div class="ttc" id="aclass_m_m_lower_html_aa34c5fd7299a4b5bde6c6cb354202ad8"><div class="ttname"><a href="class_m_m_lower.html#aa34c5fd7299a4b5bde6c6cb354202ad8">MMLower::GetIMUEuler</a></div><div class="ttdeci">RESULT GetIMUEuler(int16_t &amp;roll, int16_t &amp;pitch, int16_t &amp;yaw)</div><div class="ttdef"><b>Definition</b> <a href="_m_m_lower_8cpp_source.html#l00813">MMLower.cpp:813</a></div></div>
@@ -212,7 +209,7 @@ $(function(){initNavTree('_mini_r4_motion_8h_source.html',''); initResizable(tru
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_c106579c58d1265e9b33296122b3962b.html">src</a></li><li class="navelem"><a class="el" href="dir_4dfabab422ac346ef0a5a106da1c4c85.html">Modules</a></li><li class="navelem"><a class="el" href="_mini_r4_motion_8h.html">MiniR4Motion.h</a></li>
+    <li class="navelem"><a class="el" href="dir_581baec7be9caf7a8994db9650c754d2.html">MatrixMiniR4_DOX</a></li><li class="navelem"><a class="el" href="dir_d1e1ec8b579b49730cbd6b1c2fc939f2.html">src</a></li><li class="navelem"><a class="el" href="dir_0365cf8fefdfa4b63ca1d2da6e930dee.html">Modules</a></li><li class="navelem"><a class="el" href="_mini_r4_motion_8h.html">MiniR4Motion.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>

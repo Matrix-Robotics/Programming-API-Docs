@@ -1,4 +1,22 @@
 var searchData=
 [
-  ['up_5fstrum_0',['UP_STRUM',['../_mini_r4_p_s2_x__lib_8h.html#a5649a226ce3184676e1b22367a97e49d',1,'MiniR4PS2X_lib.h']]]
+  ['tcs34725_5faddress_0',['TCS34725_ADDRESS',['../_mini_r4___m_x_color_v3_8h.html#a7820ab2667efabd476bda3a28ff7cbe9',1,'MiniR4_MXColorV3.h']]],
+  ['tcs34725_5fatime_1',['TCS34725_ATIME',['../_mini_r4___m_x_color_v3_8h.html#a332a464ad0530ae4ec2231d5b92df568',1,'MiniR4_MXColorV3.h']]],
+  ['tcs34725_5fbdatal_2',['TCS34725_BDATAL',['../_mini_r4___m_x_color_v3_8h.html#a78b7d8fa35b6e637f47b96effd89eed6',1,'MiniR4_MXColorV3.h']]],
+  ['tcs34725_5fcdatal_3',['TCS34725_CDATAL',['../_mini_r4___m_x_color_v3_8h.html#a063cb8f10d6c3b5f30ea98924d69e45a',1,'MiniR4_MXColorV3.h']]],
+  ['tcs34725_5fcommand_5fbit_4',['TCS34725_COMMAND_BIT',['../_mini_r4___m_x_color_v3_8h.html#aa4e9856c7955d7367d2c2033ca03264b',1,'MiniR4_MXColorV3.h']]],
+  ['tcs34725_5fcontrol_5',['TCS34725_CONTROL',['../_mini_r4___m_x_color_v3_8h.html#a335dbac4ec1ad158bc2039eb5e49bc3a',1,'MiniR4_MXColorV3.h']]],
+  ['tcs34725_5fenable_6',['TCS34725_ENABLE',['../_mini_r4___m_x_color_v3_8h.html#a4b271fa23235341c55eb98adffdd4f7a',1,'MiniR4_MXColorV3.h']]],
+  ['tcs34725_5fenable_5faen_7',['TCS34725_ENABLE_AEN',['../_mini_r4___m_x_color_v3_8h.html#a4dc45331e4c66964e42b7a34885826e9',1,'MiniR4_MXColorV3.h']]],
+  ['tcs34725_5fenable_5fpon_8',['TCS34725_ENABLE_PON',['../_mini_r4___m_x_color_v3_8h.html#a46c6ff3346a6c8812360e59c5c93129d',1,'MiniR4_MXColorV3.h']]],
+  ['tcs34725_5fgain_5f1x_9',['TCS34725_GAIN_1X',['../_mini_r4___m_x_color_v3_8h.html#ab57e21d14ccb8131d0bf9e305d097049',1,'MiniR4_MXColorV3.h']]],
+  ['tcs34725_5fgdatal_10',['TCS34725_GDATAL',['../_mini_r4___m_x_color_v3_8h.html#a746a5ef3a2f6efcddb4873d9460d2ac5',1,'MiniR4_MXColorV3.h']]],
+  ['tcs34725_5fid_11',['TCS34725_ID',['../_mini_r4___m_x_color_v3_8h.html#ab6f02e62481ae653904052301d26eac0',1,'MiniR4_MXColorV3.h']]],
+  ['tcs34725_5fintegrationtime_5f24ms_12',['TCS34725_INTEGRATIONTIME_24MS',['../_mini_r4___m_x_color_v3_8h.html#a868140413e70ed3ea43ea97654db41d3',1,'MiniR4_MXColorV3.h']]],
+  ['tcs34725_5fintegrationtime_5f50ms_13',['TCS34725_INTEGRATIONTIME_50MS',['../_mini_r4___m_x_color_v3_8h.html#abd43e4a1779759d5cb024aa1a897e5e8',1,'MiniR4_MXColorV3.h']]],
+  ['tcs34725_5frdatal_14',['TCS34725_RDATAL',['../_mini_r4___m_x_color_v3_8h.html#a57a87db114b057552e3e5c4e9a26603b',1,'MiniR4_MXColorV3.h']]],
+  ['tcs34725_5fstatus_15',['TCS34725_STATUS',['../_mini_r4___m_x_color_v3_8h.html#acac8639cc7a6e932589afe12f40d3e6c',1,'MiniR4_MXColorV3.h']]],
+  ['tog_16',['TOG',['../_mini_r4_p_s2_x__lib_8h.html#a269b9f9e92de8b4c297f0e7fcf8b0bb5',1,'MiniR4PS2X_lib.h']]],
+  ['transaction_5fend_17',['TRANSACTION_END',['../_mini_r4_o_l_e_d_8cpp.html#ad6c765c4ed0d6442f51e74c4f476b8a3',1,'MiniR4OLED.cpp']]],
+  ['transaction_5fstart_18',['TRANSACTION_START',['../_mini_r4_o_l_e_d_8cpp.html#a35c77c7a1b4f1a138123e83f03a8033e',1,'MiniR4OLED.cpp']]]
 ];

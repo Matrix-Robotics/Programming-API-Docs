@@ -18,7 +18,11 @@ var searchData=
   ['mosipin_15',['mosiPin',['../class_adafruit___s_s_d1306.html#a6cb1a45ae527d3b5aaf4777d572e103c',1,'Adafruit_SSD1306']]],
   ['motion_16',['Motion',['../class_matrix_mini_r4.html#a502cfbc2897513694d246593c4b9be81',1,'MatrixMiniR4']]],
   ['mxcolor_17',['MXColor',['../class_mini_r4_i2_c.html#a5a27cb4742d0345671490a3beb06ed15',1,'MiniR4I2C']]],
-  ['mxctrl_18',['MXCtrl',['../class_mini_r4_i2_c.html#aa57c34517679ac2178db4b1575093f52',1,'MiniR4I2C']]],
-  ['mxlaser_19',['MXLaser',['../class_mini_r4_i2_c.html#a775ef49924158cd95bec6ce2f9818681',1,'MiniR4I2C']]],
-  ['mxmotion_20',['MXMotion',['../class_mini_r4_i2_c.html#aac6c64d9787da8e519e0595590caad91',1,'MiniR4I2C']]]
+  ['mxcolorv3_18',['MXColorV3',['../class_mini_r4_i2_c.html#ac83ec2df813f53d73e27ba4fd96b32ec',1,'MiniR4I2C']]],
+  ['mxctrl_19',['MXCtrl',['../class_mini_r4_i2_c.html#aa57c34517679ac2178db4b1575093f52',1,'MiniR4I2C']]],
+  ['mxdht_20',['MXDHT',['../class_mini_r4_digital.html#ad6ade26a2cab553258030695eeb611b9',1,'MiniR4Digital']]],
+  ['mxgesture_21',['MXGesture',['../class_mini_r4_i2_c.html#a0e4d6ce17fcac6fb1d27d8b70cffdedf',1,'MiniR4I2C']]],
+  ['mxlaser_22',['MXLaser',['../class_mini_r4_i2_c.html#a775ef49924158cd95bec6ce2f9818681',1,'MiniR4I2C']]],
+  ['mxlaserv2_23',['MXLaserV2',['../class_mini_r4_i2_c.html#acebfe59214b88e4009d2c82b786c0632',1,'MiniR4I2C']]],
+  ['mxonewiredt_24',['MXOnewireDT',['../class_mini_r4_digital.html#a8c9972f3d66cb234b8058a9f483316d6',1,'MiniR4Digital']]]
 ];

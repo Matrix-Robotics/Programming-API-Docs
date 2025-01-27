@@ -10,5 +10,7 @@ var class_mini_r4_digital =
     [ "DHT11", "class_mini_r4_digital.html#a23250ed068463aa6b6e3eaeecedc7739", null ],
     [ "DS18B20", "class_mini_r4_digital.html#a49c383fc335855bcf8a741411664ab3e", null ],
     [ "GroveUS", "class_mini_r4_digital.html#af69f02abb775d1177955fdb80f7c669c", null ],
+    [ "MXDHT", "class_mini_r4_digital.html#ad6ade26a2cab553258030695eeb611b9", null ],
+    [ "MXOnewireDT", "class_mini_r4_digital.html#a8c9972f3d66cb234b8058a9f483316d6", null ],
     [ "US", "class_mini_r4_digital.html#a7f385633facb4afa8d13f48cff78d1e2", null ]
 ];
